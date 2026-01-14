@@ -97,7 +97,7 @@ export default function VolunteerPage() {
             <div className="text-green-600 text-6xl mb-4">✓</div>
             <h2 className="text-2xl font-semibold mb-2 text-gray-900">Thank You!</h2>
             <p className="text-gray-700">
-              Your volunteer application has been submitted. We'll be in touch soon!
+              Your volunteer application has been submitted. We&apos;ll be in touch soon!
             </p>
           </div>
         ) : (
@@ -358,7 +358,7 @@ export default function VolunteerPage() {
                 rows={4}
                 value={formData.additionalInfo}
                 onChange={handleChange}
-                placeholder="Anything else you'd like us to know?"
+                placeholder="Anything else you&apos;d like us to know?"
                 className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent"
               />
             </div>
