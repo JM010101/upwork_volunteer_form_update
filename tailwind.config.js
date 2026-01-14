@@ -20,6 +20,12 @@ module.exports = {
           800: '#003a8c',
           900: '#002766',
         },
+        brand: {
+          darkRed: '#541E1B',
+          blue: '#214D9B',
+          darkBlue: '#20254C',
+          orange: '#f48847',
+        },
       },
     },
   },
